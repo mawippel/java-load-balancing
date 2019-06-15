@@ -10,7 +10,7 @@
 	<packaging>jar</packaging>
 
 	<name>say-hello</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Server Side application</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
