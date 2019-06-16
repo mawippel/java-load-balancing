@@ -16,7 +16,8 @@ To build the dockerfile:
 
 ```
 docker build -t server-side .
-docker tag server-side mawippel/load-balance-server-side
+docker tag server-side:version_here mawippel/load-balance-server-side
+docker login
 docker push mawippel/load-balance-server-side
 ```
 
