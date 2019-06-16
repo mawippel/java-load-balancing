@@ -5,6 +5,12 @@ To run the server:
 ```
 java "-Dserver.port=8081" -jar .\say-hello-0.0.1-SNAPSHOT.jar
 ```
+or
+```
+mvn spring-boot:run "-Dspring-boot.run.arguments=--server.port=8080"
+mvn spring-boot:run "-Dspring-boot.run.arguments=--server.port=8081"
+mvn spring-boot:run "-Dspring-boot.run.arguments=--server.port=8082"
+```
 
 To build the dockerfile:
 
