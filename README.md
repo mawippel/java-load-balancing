@@ -24,7 +24,7 @@ To run the images
 
 ```
 docker pull mawippel/load-balance-server-side
-docker run -p 8080:8090 server-side
-docker run -p 8081:8090 server-side
-docker run -p 8082:8090 server-side
+docker run -p 8080:8090 mawippel/load-balance-server-side
+docker run -p 8081:8090 mawippel/load-balance-server-side
+docker run -p 8082:8090 mawippel/load-balance-server-side
 ```
